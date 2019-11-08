@@ -134,9 +134,12 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<CommonModule>ОбщийМодуль1</CommonModule>
+			<CommonCommand>ОбщаяКоманда1</CommonCommand>
+			<CommonForm>Форма</CommonForm>
 			<Catalog>Справочник1</Catalog>
 			<Document>Документ1</Document>
-			<Document>Документ2</Document>
+			<Report>Отчет1</Report>
+			<AccumulationRegister>РегистрНакопления1</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
