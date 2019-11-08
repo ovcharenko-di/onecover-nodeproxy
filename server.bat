@@ -1,3 +1,4 @@
+@chcp 65001
 call env.bat
 start "" %v8path%dbgs.exe -a %DEBUG_ADR% -p %DEBUG_PORT%
 start npm start
