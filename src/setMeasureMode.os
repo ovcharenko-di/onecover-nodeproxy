@@ -15,10 +15,10 @@
 Заголовки.Вставить("accept-charset", "utf-8");
 Заголовки.Вставить("content-type", "application/xml");
 
-АдрессДебагера = ПолучитьПеременнуюСреды("PROXY_URL");
+АдресОтладчика = ПолучитьПеременнуюСреды("PROXY_URL");
 
 Результат = КоннекторHTTP.Post(
-	АдрессДебагера + "/e1crdbg/rdbg?cmd=setMeasureMode",
+	АдресОтладчика + "/e1crdbg/rdbg?cmd=setMeasureMode",
 	Тело,
 	, 
 	Новый Структура("Заголовки", Заголовки)
