@@ -1,0 +1,1 @@
+opm build ./ -mf packagedef

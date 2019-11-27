@@ -1,2 +1,2 @@
 call env.bat
-oscript ./src/cover/src/main.os
+oscript ./src/1coverage/src/1coverage.os

@@ -1,11 +1,5 @@
 
-src/node_modules/
-
 node_modules/
-
-src/project.log
-
-src/package-lock\.json
 
 package-lock\.json
 
@@ -13,4 +7,8 @@ package-lock\.json
 
 \.vscode/
 
-tools/vanessa-automation-single\.epf
+log/
+
+out/
+
+build/

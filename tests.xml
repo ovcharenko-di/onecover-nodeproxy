@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testsuites tests="6" name="xUnitFor1C" time="0" failures="0" skipped="5">
+    <testsuite name="">
+        <properties/>
+        <testcase classname="КомандаInit" name="ТестДолжен_ПроверитьПоискИд_v8i_ФайловаяБаза_АбсолютныйПуть" status="passed"/>
+        <testcase classname="КомандаInit" name="ТестДолжен_ПроверитьПоискИд_v8i_ФайловаяБаза_ОтносительныйПутьТекКаталог" status="skipped">
+            <skipped message=""/>
+        </testcase>
+        <testcase classname="КомандаInit" name="ТестДолжен_ПроверитьПоискИд_v8i_ФайловаяБаза_ОтносительныйПуть" status="skipped">
+            <skipped message=""/>
+        </testcase>
+        <testcase classname="КомандаInit" name="ТестДолжен_ПроверитьПоискИд_v8i_СервернаяБаза" status="skipped">
+            <skipped message=""/>
+        </testcase>
+        <testcase classname="КомандаInit" name="ТестДолжен_ПроверитьПоискИд_v8i_СервернаяБаза_Кластер" status="skipped">
+            <skipped message=""/>
+        </testcase>
+        <testcase classname="КомандаInit" name="ТестДолжен_ПроверитьПоискИд_v8i_НесколькоБазВСписке" status="skipped">
+            <skipped message=""/>
+        </testcase>
+    </testsuite>
+</testsuites>

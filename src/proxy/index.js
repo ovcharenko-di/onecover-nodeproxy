@@ -1,4 +1,4 @@
-var debugerURL = process.env.DEBUGER_URL;
+var debuggerURL = process.env.DEBUGGER_URL;
 var proxyPort = process.env.PROXY_PORT;
 var proxyResultDir = process.env.PROXY_RESULT_DIR;
 
@@ -32,7 +32,7 @@ app.all("/*", function (req, res) {
 
     });
  
-    apiProxy.web(req, res, { target: debugerURL });
+    apiProxy.web(req, res, { target: debuggerURL });
 
 });
 

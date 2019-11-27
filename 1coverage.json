@@ -1,0 +1,36 @@
+{
+    "default": {
+        "--ibconnection": "/F./build/ib",
+        "--db-user": "Администратор",
+        "--db-pwd": "",
+        "--ordinaryapp": "0"
+    },
+
+    "init": {
+        "--vanessasettings": "./tools/VBParams.json",
+        "--workspace": ".",
+        "--pathvanessa": "./tools/vanessa-behavior/vanessa-behavior.epf",
+        "--additional": "/DisplayAllFunctions /L ru"
+    },
+
+    "start": {
+        "--vanessasettings": "./tools/VBParams.json",
+        "--workspace": ".",
+        "--pathvanessa": "./tools/vanessa-behavior/vanessa-behavior.epf",
+        "--additional": "/DisplayAllFunctions /L ru"
+    },
+
+    "stop": {
+        "--vanessasettings": "./tools/VBParams.json",
+        "--workspace": ".",
+        "--pathvanessa": "./tools/vanessa-behavior/vanessa-behavior.epf",
+        "--additional": "/DisplayAllFunctions /L ru"
+    },
+
+    "convert": {
+        "--vanessasettings": "./tools/VBParams.json",
+        "--workspace": ".",
+        "--pathvanessa": "./tools/vanessa-behavior/vanessa-behavior.epf",
+        "--additional": "/DisplayAllFunctions /L ru"
+    }
+}
