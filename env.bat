@@ -1,7 +1,7 @@
 set DEBUGGER_URL=http://localhost:1550
 
-set 1COVERAGE_DEBUG_HOST=localhost
-set 1COVERAGE_DEBUG_PORT=1550
+set 1COVERAGE_DBGS_HOST=localhost
+set 1COVERAGE_DBGS_PORT=1550
 
 set PROXY_RESULT_DIR=./build/log/dbgs.log
 set PROXY_PORT=3000
