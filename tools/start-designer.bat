@@ -1,0 +1,1 @@
+"C:/Program files/1cv8/8.3.13.1644/bin/1cv8.exe" DESIGNER /Slocalhost:1641\AGPZ_DEV_DOvcharenko
