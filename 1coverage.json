@@ -1,36 +1,46 @@
 {
     "default": {
-        "--ibconnection": "/F./build/ib",
-        "--db-user": "Администратор",
-        "--db-pwd": "",
-        "--ordinaryapp": "0"
+        "v8path": "C://Program files//1cv8",
+        "v8version": "8.3.13.1644",
+        "tempdir": "./build",
+        "verbose": "Истина",
+
+        "ib-connection": "/F./build/ib",
+        "proxy-host": "localhost",
+        "proxy-port": "3000",
+        "dbgs-host": "localhost",
+        "dbgs-port": "1550",
+        "proxy-log": "dbgs.log",
+        
+        "ib-user": "",
+        "ib-pwd": "",
+        "src-path": "./tests/fixtures/cf",
+        "format": "GenericCoverage"
     },
 
     "init": {
-        "--vanessasettings": "./tools/VBParams.json",
-        "--workspace": ".",
-        "--pathvanessa": "./tools/vanessa-behavior/vanessa-behavior.epf",
-        "--additional": "/DisplayAllFunctions /L ru"
+        "ib-connection": "F./build/ib",
+        "proxy-host": "localhost",
+        "proxy-port": "3000"
     },
 
     "start": {
-        "--vanessasettings": "./tools/VBParams.json",
-        "--workspace": ".",
-        "--pathvanessa": "./tools/vanessa-behavior/vanessa-behavior.epf",
-        "--additional": "/DisplayAllFunctions /L ru"
+        "dbgs-host": "localhost",
+        "dbgs-port": "1550",
+        "proxy-host": "localhost",
+        "proxy-port": "3000",
+        "proxy-log": "dbgs.log",
+        "ib-connection": "/F./build/ib",
+        "ib-user": "",
+        "ib-pwd": ""
     },
 
     "stop": {
-        "--vanessasettings": "./tools/VBParams.json",
-        "--workspace": ".",
-        "--pathvanessa": "./tools/vanessa-behavior/vanessa-behavior.epf",
-        "--additional": "/DisplayAllFunctions /L ru"
     },
 
     "convert": {
-        "--vanessasettings": "./tools/VBParams.json",
-        "--workspace": ".",
-        "--pathvanessa": "./tools/vanessa-behavior/vanessa-behavior.epf",
-        "--additional": "/DisplayAllFunctions /L ru"
+        "proxy-log": "dbgs.log",
+        "src-path": "./tests/fixtures/cf",
+        "format": "GenericCoverage"
     }
 }
