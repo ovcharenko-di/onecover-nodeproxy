@@ -19,7 +19,7 @@
     },
 
     "init": {
-        "ib-connection": "F./build/ib",
+        "ib-connection": "/F./build/ib",
         "proxy-host": "localhost",
         "proxy-port": "3000"
     },
